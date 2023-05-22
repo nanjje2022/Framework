@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="genericLibraries.ListenerImplementation"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngImplementation.CreateOrganizationWithMandatoryFields">
+      <class name="practice.DataProviders">
         <methods>
-          <include name="classConfiguration"/>
-          <include name="createOrganizationTest"/>
-          <include name="methodTearDown"/>
-          <include name="classTearDown"/>
-          <include name="methodConfiguration"/>
+          <include name="ticketBookingTest"/>
         </methods>
-      </class> <!-- testngImplementation.CreateOrganizationWithMandatoryFields -->
+      </class> <!-- practice.DataProviders -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngImplementation.CreateContactWithMandatoryField">
+      <class name="practice.DataProviders">
         <methods>
-          <include name="classConfiguration"/>
-          <include name="methodTearDown"/>
-          <include name="createContactTest"/>
-          <include name="classTearDown"/>
-          <include name="methodConfiguration"/>
+          <include name="ticketBookingTest"/>
         </methods>
-      </class> <!-- testngImplementation.CreateContactWithMandatoryField -->
+      </class> <!-- practice.DataProviders -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
